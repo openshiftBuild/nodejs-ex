@@ -1,0 +1,79 @@
+webapp page menu links*********
+
+index--> Overview
+
+
+static website--> http://bondsportfolio.webstarts.com/
+
+contact me-->
+http://bondsportfolio-bondsapps.rhcloud.com/contactMe.php
+
+
+all other pages link********
+
+<br/>
+
+<hr style="height:3px;background-color:#030321;"/>
+<hr style="height:3px;background-color:#030321;"/>
+<br/>
+
+
+
+
+   <a href='http://bondsportfolio-bondsapps.rhcloud.com/' style="color:#030321">Portfolio Overview</a>
+<br/>
+
+
+<a href='http://bondsportfolio-bondsapps.rhcloud.com/Welcome.php' style="color:#030321">Welcome</a>
+
+
+<br/>
+
+<a href='http://bondsportfolio-bondsapps.rhcloud.com/Reports.php' style="color:#030321">Reports</a>
+
+
+
+
+
+
+<br/>
+
+<a href='http://bondsportfolio.webstarts.com/' style="color:#030321">Website (Static)</a>
+
+
+
+<br/>
+
+<a href='http://bondsportfolio-bondsapps.rhcloud.com/contactMe.php' style="color:#030321">Contact Me</a>
+
+
+
+
+
+<br/>
+
+
+
+
+**************
+
+
+<footer style='width:100%;float:left;'>
+<hr style="height:3px;background-color:#030321;"/>
+<p style='text-align:center;'>Natasha Bonds     |     Professional Portfolio     |     908.764.2432     |     bonds.portfolio@gmail.com</p>     
+</footer>
+
+
+
+****************************
+Fix this
+
+http://bondsportfolio-bondsapps.rhcloud.com/specs.php
+
+http://bondsportfolio-bondsapps.rhcloud.com/tableData.php
+
+
+http://bondsportfolio-bondsapps.rhcloud.com/tableData_Pop.php
+
+
+--->footer on most report pages should be removed

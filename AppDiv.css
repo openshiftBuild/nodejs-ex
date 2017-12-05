@@ -1,0 +1,79 @@
+﻿#ColorBandTop
+{
+background-color: #070743;
+width: 100%;
+height: 125px;
+margin-left: 0px;
+margin-right: 0px;
+margin-top: 0px;
+margin-bottom: 0px;
+
+
+
+margin: 0px auto 0px auto;
+border: 1px solid #FFFFFF;
+border-color:#8DB600;
+
+
+
+
+}
+
+
+
+#ColorBandTop2
+{
+
+width: 100%;
+height: 60px;
+margin-left: 0px;
+margin-right: 0px;
+margin-top: 0px;
+margin-bottom: 0px;
+
+
+
+margin: 0px auto 0px auto;
+
+
+
+}
+
+
+
+
+body
+{
+
+resize: both;
+    overflow: auto;
+  font-family: "Helvetica Neue",Helvetica,"Liberation Sans",Arial,sans-serif;
+  font-size: 18px;
+}
+
+
+
+
+h1
+{
+  font-size: 24px;
+}
+
+h2
+{
+  font-size: 22px;
+}
+
+h3
+{
+  font-size: 20px;
+}
+
+
+p
+{
+font-size:16px;
+text-align:justify;
+}
+
+

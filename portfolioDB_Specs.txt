@@ -1,0 +1,97 @@
+
+DB Specs--->
+
+
+Add fName & lName to Prospective Employer
+
+
+
+
+Unemployment Rates by State over 10 years.
+
+
+State population over 10 years
+
+
+BLS stats
+
+
+Create Table unEmpRate (State varchar(10), Year DATE, Rate Number(3,1))
+
+
+Create Table statePop (State varchar(20), Year DATE, Population Number(5,1))
+
+
+
+
+unEmpRate--->
+INSERT INTO  `unEmpRate` (  `State` ,  `Year` ,  `Rate` ) 
+VALUES (
+'New York', SYSDATE( ) -576, 5.9)
+
+
+
+statePop--->
+Population,State, Year
+
+INSERT INTO  `statePop`
+ (  `State` ,  `Year` ,  `Population` ) 
+VALUES (
+'New York', SYSDATE( ) -576, 12.4)
+
+
+------------------------------
+
+
+
+
+<br/>
+<br/>
+	<fieldset style="border-color:#8DB600;">
+
+
+    <legend>Special Reports</legend>
+
+
+<br/>
+
+<p>Joining 2 Tables:unEmpRate and statePop</p></br>
+      <button type="button" onClick="location.href='report_JoinOn.php'">Join...On</button>
+
+
+<br/>
+
+<p>Using COUNT() to count the number of states listed in the table</p></br>
+      <button type="button" onClick="location.href='report_Count.php'">COUNT()---> Includes D.C.</button>
+
+
+<br/>
+
+
+<p>Using COUNT() to count the number of states listed in the table and grouping by geographical region</p></br>
+      <button type="button" onClick="location.href='report_Count_GroupBy.php'">COUNT() with GROUP BY---> Includes D.C.</button>
+
+<br/>
+
+
+
+<p>Using the GROUP BY clause and SUM()  to group states by geographical region and add state populations according to region.</p></br>
+
+      <button type="button" onClick="location.href='report_Sum_GroupBy.php'">SUM() with GROUP BY---> Includes D.C.</button>
+
+<br/>
+
+
+<p>Using the GROUP BY clause and SUM()  to group states by geographical region and add state populations according to region.  The HAVING clause is then applied to exclude certain regions.</p></br>
+
+      <button type="button" onClick="location.href='report_Sum_GroupBy_Having.php'">SUM() with GROUP BY and HAVING---> Includes D.C.</button>
+
+
+<br/>
+
+
+
+</fieldset>
+
+
+
